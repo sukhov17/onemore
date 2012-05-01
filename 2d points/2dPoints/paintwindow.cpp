@@ -66,11 +66,11 @@ double v = 20;
 double x1 = 0,x2 = 100;
 void PaintWindow::turnShift()
 {
-     a += 0.14;
+     a += 0.24;
     setRadius(r*cos(a) + 20);
   //  x1 += 1;
 //    x2 += 1;
-// может быть дело в рекурсии?
+// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ?
     for(int i=0; i<pointsList.count();i++)
     {
         QPoint *p = &pointsList[i];                                                                                 
